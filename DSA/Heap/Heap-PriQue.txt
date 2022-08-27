@@ -1,0 +1,28 @@
+Heap - Complet Binary tree
+Max-Heap and Min-Heap
+
+Time Complexity of Insertion , Deletion - O(logn)
+
+
+- 1 based indexing 
+leftIndex = 2*i
+rightIndex = 2*i + 1
+
+- 0 based indexing
+leftIndex = 2*i + 1
+rightIndex = 2*i + 2
+
+Heapify Algo
+- ( n/2 + 1 ) to n --> Leaf Node (Heap in itself)
+- Place node at correct position
+
+
+Heap Sort
+- Build Heap 
+- Swap first with last and size--
+
+Priority_Queue
+
+
+Max_heap --> priority_queue<int> pq;  
+Min_heap --> priority_queue<int, vector<int> , greater<int>> pq;
