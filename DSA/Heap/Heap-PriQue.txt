@@ -26,3 +26,18 @@ Priority_Queue
 
 Max_heap --> priority_queue<int> pq;  
 Min_heap --> priority_queue<int, vector<int> , greater<int>> pq;
+
+
+
+
+Q. Smallest range in k List
+Approach:- 
+   - create k pointers (every pointer at first position of respective list)
+   - find min and max 
+   - increase min and update ans 
+Using Heap
+   - create a min-heap of size k
+   - insert starting element of every list
+   - track min and max
+   
+
