@@ -1,0 +1,14 @@
+- 1D DP 
+
+Q ) Cut into Segments 
+
+2
+7 3 2 2  --> 3
+8 1 4 4  --> 8
+
+Recursion
+Recursion + Memoization
+Tabulation
+
+Q ) Count Derangements
+ 
