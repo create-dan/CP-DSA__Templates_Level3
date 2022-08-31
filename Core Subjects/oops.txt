@@ -1,0 +1,29 @@
+ -- In OOPs, the property of enclosing data and its related functions into a single entity(in C++ we call them classes) is called encapsulation.
+
+
+ -- Structure members are public by default whereas, class members are private by default. Both of them can have private and public members.
+
+ -- Polymorphism is the concept of allowing a user to override functions either by changing the types or number of parameters passed.
+
+ int func(float)
+ int func(int , int , char)
+
+
+ -- C++ does not allow a derived class pointer to point a base class pointer whereas Base class can point to a derived class object. Both base class and derived class can have pointer objects.
+
+ -- There are two types of polymorphism in C++ namely run-time and compile-time polymorphisms.
+1)  Run-time polymorphism is implemented using Inheritance and virtual in which object decides which function to call.
+2) Compile-time polymorphism is implemented using templates
+
+
+-- Pointer object initialization of a class using new involves constructor call whereas using malloc does not involve constructor call
+
+
+
+New vs malloc
+i) new is an operator whereas malloc is a function
+ii) new calls constructor malloc does not
+iii) new returns required pointer whereas malloc returns void pointer and needs to be typecast
+
+
+

@@ -1,0 +1,13 @@
+- FIFO --> first in First Out
+- front=pop , rear = push
+- rear==n-1 , queue full 
+- front==rear , queue empty
+
+Time Compexity-
+isEmpty,push,pop,size = o(1) (front==rear)
+
+
+
+-Circular queue
+ 
+
