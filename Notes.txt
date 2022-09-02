@@ -19,3 +19,6 @@ char ch = s[i];
 let's say  ch = '2'
 freq = ch - '0';
 freq= 2 (in int)
+
+
+- 
