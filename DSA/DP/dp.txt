@@ -6,12 +6,29 @@ Q ) Cut into Segments
 7 3 2 2  --> 3
 8 1 4 4  --> 8
 
-Recursion
-Recursion + Memoization
-Tabulation
-
 Q ) Count Derangements
  
 
  -Painting Fence Algorithms
+
+Recursion
+Recursion + Memoization
+- create dp wala array (-1)
+- recursive call ka ans dp mai store karo
+- after base case check if dp array containes ans then just return ans
+Tabulation
+
+
+2D DP(Top Down)
+- 
+
+Tabulation(Bottom Up)
+- create dp wala array inside function
+- Base case
+- 
+
+
+
+
+
  

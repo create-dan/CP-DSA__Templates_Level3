@@ -1,4 +1,6 @@
 - FIFO --> first in First Out
+- Elements are inserted at the back (end) and are deleted from the front.
+- Use of queue is in cpu scheduling and process scheduling
 - front=pop , rear = push
 - rear==n-1 , queue full 
 - front==rear , queue empty
@@ -9,6 +11,19 @@ isEmpty,push,pop,size = o(1) (front==rear)
 
 
 -Circular queue
+
+- Input restricted queue
+- Output restricted queue
+- Doubly Ended queue
+
+-  Double-ended queues are a special case of queues where insertion and deletion operations are possible at both the ends.
+
+
+
+
+
+
+
 
  
 
