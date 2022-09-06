@@ -1,0 +1,18 @@
+- left mai chote elements and right mai bade elements (Partition)
+- low --> Partition <-- high
+if(s>=e) return 
+int p = Partition(arr,s,e)
+quickSort(low,p-1)
+quickSort(p+1,high)
+
+
+- Now Partition
+- Take a pivot
+- count chote elements
+- pivot ki right position = start + count
+- swap kardo pivot and vo position wala number
+- two pointer and check whether it is correct position
+
+
+- Writing Function 
+quickSort(arr,s,e)
