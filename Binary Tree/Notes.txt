@@ -1,0 +1,14 @@
+Tree - Non linear Data structure
+
+
+
+
+Har ek node mai 3 things , data , left and right
+
+node {
+    int data;
+    node *left ;
+    node *right;
+}
+
+``Creation of Binary Tree
