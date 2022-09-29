@@ -11,4 +11,11 @@ node {
     node *right;
 }
 
-``Creation of Binary Tree
+--Creation of Binary Tree
+
+
+
+-- Inorder = LNR 
+-- Preorder = NLR
+-- Postorder = LRN 
+
