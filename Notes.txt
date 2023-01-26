@@ -21,4 +21,5 @@ freq = ch - '0';
 freq= 2 (in int)
 
 
-- 
+ // Creates a min heap
+    priority_queue <int, vector<int>, greater<int> > pq;
