@@ -38,3 +38,18 @@ sort(arr, arr + 3);
   } while (next_permutation(arr, arr + 3));
   
   
+  
+  
+  https://www.geeksforgeeks.org/priority-queue-set-1-introduction/
+  
+
+  
+  
+  
+
+
+
+
+
+  
+  
