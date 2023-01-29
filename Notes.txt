@@ -43,6 +43,10 @@ sort(arr, arr + 3);
   https://www.geeksforgeeks.org/priority-queue-set-1-introduction/
   
    fill(nums.begin(),nums.end(),0);
+   
+   
+   
+*Agar graph ke andr cycle present hai to ham topological sort nahi laga sakte
   
 
   
