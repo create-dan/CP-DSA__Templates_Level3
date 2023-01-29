@@ -1,3 +1,7 @@
+//ab BFS ya kahn's algorithm
+//find indegree of all nodes
+//0 indegree wale queue me dal do
+// do bfs
 
 #include <bits/stdc++.h>
 using namespace std;
