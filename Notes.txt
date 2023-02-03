@@ -48,7 +48,7 @@ sort(arr, arr + 3);
    
 *Agar graph ke andr cycle present hai to ham topological sort nahi laga sakte
   
-
+  sort(b, b + n, greater<int>());
   
   
   
