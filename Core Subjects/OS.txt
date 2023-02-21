@@ -14,3 +14,10 @@ Q #2) Explain the concepts of a Primary key and Foreign Key.
 Answer: Primary Key is used to uniquely identify the records in a database table while Foreign Key is mainly used to link two or more tables together, as this is a particular field(s) in one of the database tables which are the primary key of some other table.
 
 Example: There are 2 tables – Employee and Department. Both have one common field/column as ‘ID’ where ID is the primary key of the Employee table while this is the foreign key for the Department table.
+
+lavdya abhyas nako karus evda!
+
+Thread Vs process
+
+thread is a path of execution within a process , a process can contain multiple threads
+The threads within the same process run in a shared memory space , while processes run in a seperate memory spaces. 
