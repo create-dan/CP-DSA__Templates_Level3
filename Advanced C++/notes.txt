@@ -1,0 +1,2 @@
+How map is implemented ?
+- Map is implemented using self balancing binary search tree(typically red black tree). O(log(n))
