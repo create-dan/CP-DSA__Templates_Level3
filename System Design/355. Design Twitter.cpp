@@ -1,3 +1,6 @@
+// https://leetcode.com/problems/design-twitter/description/
+
+
 class Twitter {
  private:
   
@@ -26,13 +29,15 @@ public:
 
         //time , tweets
         priority_queue<pair<int,int>> mxHeap;
-
+         
+         // push the user's tweets into the priority queue
         for(auto it = t[userId].begin();it!=t[userId].end();it++)
         {
             mxHeap.push({it->first,it->second});
         }
 
 
+     // push the followee's tweets into the priority queue
         for(auto it1=fo[userId].begin();it1!=fo[userId].end();it1++)
         {
             int user = *it1;
