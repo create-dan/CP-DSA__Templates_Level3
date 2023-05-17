@@ -43,20 +43,16 @@ sort(arr, arr + 3);
   https://www.geeksforgeeks.org/priority-queue-set-1-introduction/
   
    fill(nums.begin(),nums.end(),0);
-<<<<<<< HEAD
-
-
-
-
-=======
    
    
    
 *Agar graph ke andr cycle present hai to ham topological sort nahi laga sakte
->>>>>>> ef3b1feb257ed9b25610c54ef0d6bcea59b863fa
   
   sort(b, b + n, greater<int>());
   
+
+
+  arr.erase(unique(arr.begin(), arr.end()), arr.end());
   
   
 
