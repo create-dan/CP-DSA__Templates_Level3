@@ -1,3 +1,8 @@
+
+
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -32,6 +37,49 @@ public:
         return ans;
     }
 };
+
+
+
+// ******Coding ninza*******
+//disconnected components
+
+void dfs(int src, vector<int> adj[], bool visited[], vector<int> &temp)
+{
+    visited[src] = true;
+    temp.push_back(src);
+    for (auto i : adj[src])
+    {
+        if (!visited[i])
+            dfs(i, adj, visited, temp);
+    }
+}
+
+vector<vector<int>> depthFirstSearch(int V, int E, vector<vector<int>> &edges)
+{
+    vector<vector<int>> ans;
+    bool visited[V] = {false};
+    vector<int> adj[V];
+    for (int i = 0; i < edges.size(); i++)
+    {
+        int u = edges[i][0];
+        int v = edges[i][1];
+
+        adj[u].push_back(v);
+        adj[v].push_back(u);
+    }
+
+    for (int i = 0; i < V; i++)
+    {
+        if (!visited[i])
+        {
+            vector<int> temp;
+            dfs(i, adj, visited, temp);
+            ans.push_back(temp);
+        }
+    }
+
+    return ans;
+}
 
 int main()
 {
