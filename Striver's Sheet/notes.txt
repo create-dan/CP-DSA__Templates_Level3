@@ -1,0 +1,6 @@
+https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
+
+1) Set Matrix Zeros
+2) Pascal’s Triangle
+3) Next Permutation
+4) Maximum Subarray-Kadane

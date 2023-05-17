@@ -1,5 +1,29 @@
-Heap - Complet Binary tree
+Heap - Complet Binary tree that comes with a heap order property
+CBT - har level completely filled hota hai except last level
+
+A complete binary tree is a special type of binary tree where all the levels of the tree are filled completely except the lowest level nodes which are filled from as left as possible.
+
+
 Max-Heap and Min-Heap
+
+Max_heap- har node ke child usse to chote hi honge
+Min_heap- har node ke child usse to bade hi honge
+
+Insertion-using array
+-sabse pahle us naya value ko last mai add kar do 
+-ab usko apni right position pai le jana hai 
+-new index/2 nikalo
+-agar nayi value badi hai index/2 wale se to Swap
+
+Deletion 
+- root node ko delete
+- last node ko root pai dal do
+- remove last node
+- propgate root node to it's correct position
+- agar children > root se to swap
+
+
+
 
 Time Complexity of Insertion , Deletion - O(logn)
 
@@ -7,19 +31,37 @@ Time Complexity of Insertion , Deletion - O(logn)
 - 1 based indexing 
 leftIndex = 2*i
 rightIndex = 2*i + 1
+parent= i/2
+
 
 - 0 based indexing
 leftIndex = 2*i + 1
 rightIndex = 2*i + 2
+parent - (i-1)/2
 
 Heapify Algo
 - ( n/2 + 1 ) to n --> Leaf Node (Heap in itself)
 - Place node at correct position
+- Time Complexity of building a heap is O(n)
 
 
-Heap Sort
+
+- given array ko heap mai convert karna hai
 - Build Heap 
+- last se traverse karo and check heap hai kya
 - Swap first with last and size--
+- agar CBT hai to leaf node (n/2+ 1) se (n/2)
+- sare leaf node apne aap mai heap hai
+- 1 se leke n/2 tak process karna hai
+
+-heap Sort
+- swap pahla element (arr[1]) with last wale ke sath arr[n]
+- decrease size--
+- root node ko correct position pai le javo
+-   
+
+
+
 
 Priority_Queue
 

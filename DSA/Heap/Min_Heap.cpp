@@ -1,6 +1,7 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
+// i index wale ko sahi jagah pai
 void heapify(vector<int> &arr, int n, int i)
 {
     int smallest = i;
@@ -39,7 +40,4 @@ vector<int> buildMinHeap(vector<int> &arr)
 
 int main()
 {
-
 }
-
-
