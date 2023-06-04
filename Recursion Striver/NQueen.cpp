@@ -1,5 +1,10 @@
+
+// Revised
+
 #include <bits/stdc++.h>
 using namespace std;
+
+// The time complexity of this solution is exponential, O(2 ^ N), where N is the size of the chessboard.This is because it explores all possible combinations of queen placements on the board.
 
 class Solution
 {
@@ -88,10 +93,8 @@ public:
     }
 };
 
-
-
-//Optimized using hashing 
-// row , upparRow, lowerDiagonal
+// Optimized using hashing
+//  row , upparRow, lowerDiagonal
 class Solution
 {
 public:
@@ -143,8 +146,6 @@ public:
 
 int32_t main()
 {
-
-    
 
     return 0;
 }

@@ -1,12 +1,15 @@
+//revised but not under stood properly
+
+
+
 // https: // www.youtube.com/watch?v=-GtpxG6l_Mc&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&index=10&t=1450s&ab_channel=AdityaVerma
 
 // https: // practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
 
-//{ Driver Code Starts
+
 #include <bits/stdc++.h>
 using namespace std;
 
-// } Driver Code Ends
 class Solution
 {
 
@@ -65,7 +68,6 @@ public:
     }
 };
 
-//{ Driver Code Starts.
 int main()
 {
 
@@ -85,4 +87,3 @@ int main()
     }
     return 0;
 }
-// } Driver Code Ends

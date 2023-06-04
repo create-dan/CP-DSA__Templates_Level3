@@ -1,3 +1,10 @@
+
+
+// Revised
+
+#include <bits/stdc++.h>
+using namespace std;
+
 /*
     Time Complexity: O(N^3)
     Space Complexity: O(1)
@@ -11,13 +18,13 @@ long long maxSubarraySum(int arr[], int n)
 {
     long long maxSum = 0;
 
-    for(int i=0; i<n; i++)
+    for (int i = 0; i < n; i++)
     {
-        for(int j=i; j<n; j++)
+        for (int j = i; j < n; j++)
         {
             long long curSum = 0;
-            
-            for(int k=i; k<=j; k++)
+
+            for (int k = i; k <= j; k++)
             {
                 curSum += arr[k];
             }
@@ -29,19 +36,21 @@ long long maxSubarraySum(int arr[], int n)
     return maxSum;
 }
 
+// starting a new subarray or extending the previous subarray
 
 
-class Solution {
+class Solution
+{
 public:
-    int maxSubArray(vector<int>& nums) {
-        int curr=nums[0],ans=nums[0];
-        for(int i=1;i<nums.size();i++)
+    int maxSubArray(vector<int> &nums)
+    {
+        int curr = nums[0], ans = nums[0];
+        for (int i = 1; i < nums.size(); i++)
         {
-           curr = max(nums[i],curr+nums[i]);
-            ans = max(ans,curr);
+            curr = max(nums[i], curr + nums[i]);
+            ans = max(ans, curr);
         }
-        
+
         return ans;
     }
 };
-

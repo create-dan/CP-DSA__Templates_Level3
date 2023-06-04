@@ -1,10 +1,15 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
 //#SD
 //https://www.youtube.com/watch?v=LuLCLgMElus&ab_channel=takeUforward
 
-//brute force generate all
+//brute force generate all permutation
 //TC- N! * N (N! orders and N is the length of array)
+// There are N! possible permutations of the array, and generating each permutation requires N operations to find the next lexicographically larger permutation.
 //Optimal - Linear Time Complexity
 
 
